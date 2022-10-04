@@ -1,8 +1,69 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
 body{
     background: radial-gradient(#9bdfff,#009be4);
+}
+
+.bottom-img{
+    position: absolute;
+    left:0;
+    top: 70px;
+}
+
+.top-img{
+    position: absolute;
+    left: 0;
+    top: 70px;
+    opacity:0;
+    transition: all 0.7s ease ;
+}
+
+.top-img:hover{
+    opacity: 1;
+    }
+
+h1{
+    font-family: 'Kaushan Script', cursive;
+   
+}
+h2{
+    font-family: 'Kaushan Script', cursive;
+}
+
+h3{
+    font-family: 'Kaushan Script', cursive;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: black;
+    border-width: 5px;
+    width: 5%;
+}
+
+#tekst{
+    font-family:'Kaushan Script', cursive;
+    height: 2px;
+}
+
+.kontakt-container{
+    color: black;
+    font-family: 'Kaushan Script', cursive;
+}
+.kontakt-container:hover{
+     background-image: linear-gradient(
+        to right,
+        #54b3d6,
+        #54b3d6 50%,
+        #000 50%
+      );
+      background-size: 200% 100%;
+      background-position: -100%;
+      display: inline-block;
+      padding: 5px 0;
+      position: relative;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      transition: all 0.3s ease-in-out;
+    
+    
 }
