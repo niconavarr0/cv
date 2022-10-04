@@ -8,22 +8,42 @@
     <title>Document</title>
 </head>
 <body>
-    <table cellspacing="20">
+    <table cellspacing="65">
         <tr>
-            <td><img src="./nico.png" style="width: 200px; height: 200px;" alt="nicolas profile picture"></td>
+            <div class="nico-container">
+            <td><img class="bottom-img" src="./nico.png" style="width: 200px; height: 200px;" alt="nicolas profile picture"></td>
+            <td><img class="top-img" src="./knebøy.jpg" style="width: 200px; height: 200px" alt="nico knebøy"></td>
+        </div>
             <td><h1>Nicolas Jesus Riquelme Navarro</h1>
             <p><em><strong>Student, visjonær, kremmer, filantrop</strong></em></p>
-            <p> Jeg er en ny i programmering. Jeg elsker <span>&#128147;</span> kaffe og trening</p></td>
+            <p id="tekst"> Jeg er en ny i programmering. Jeg<span>&#128147;</span> kaffe, trening og old school gangster rap</p></td>
         </tr>
+   
     </table>
-    
+    <hr> 
+    <h3>Utdanning</h3>
+    <table>
+        <thead>
+            <tr>
+                <td>Dato</td>
+                <td>Skole</td>
+                <tr>
+                    <td>2014-2017</td>
+                    <td>HR og personalledelse hos Høyskolen Kristiania</td>
+                </tr>
+                <tr>
+                    <td>2022-2025</td>
+                    <td>Cyber Sikkerhet hos Høyskolen Kristiania</td>
+                </tr>
+        </thead>
+    </table>
     <hr>
     <h3>Abeidserfaring</h3>
     <table>
         <thead>
         <tr>
-            <th>Dato</th>
-            <th>Arbeid</th>
+            <td>Dato</td>
+            <td>Arbeid</td>
         <tr>    
             <td>2019-2021</td>
             <td>Account Manager hos Crayon AS - Heltid</td>
@@ -61,7 +81,7 @@
         </tr>
     </table>
     <hr>
-    <a href="kontaktmeg.html">Kontakt Meg</a>
+    <a class="kontakt-container" href="kontaktmeg.html" >KONTAKT MEG</a>
 
 </body>
 </html>
